@@ -12,3 +12,5 @@ az ad sp create-for-rbac --name "static-webapp" --role owner --scopes /subscript
   "galleryEndpointUrl": "https://gallery.azure.com/",
   "managementEndpointUrl": "https://management.core.windows.net/"
 }
+
+az ad sp create-for-rbac --name "static-webapp" --role contributor --scopes /subscriptions/7e3c4da4-d3ea-4b70-8e9c-900c1f13b14f --sdk-auth
