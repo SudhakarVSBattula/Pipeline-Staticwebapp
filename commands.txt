@@ -1,0 +1,14 @@
+az ad sp create-for-rbac --name "static-webapp" --role owner --scopes /subscriptions/7e3c4da4-d3ea-4b70-8e9c-900c1f13b14f --sdk-auth
+
+{
+  "clientId": "870152c2-be16-4eb6-909a-29bc40fed695",
+  "clientSecret": "oKw8Q~029tbZ2EJFbO0VTSgMa-dHionwAw1vxbk6",
+  "subscriptionId": "7e3c4da4-d3ea-4b70-8e9c-900c1f13b14f",
+  "tenantId": "6cb66941-d4d9-4490-9d4b-0f7e5bf63bb2",
+  "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+  "resourceManagerEndpointUrl": "https://management.azure.com/",
+  "activeDirectoryGraphResourceId": "https://graph.windows.net/",
+  "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
+  "galleryEndpointUrl": "https://gallery.azure.com/",
+  "managementEndpointUrl": "https://management.core.windows.net/"
+}
